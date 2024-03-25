@@ -1,0 +1,28 @@
+{
+  "name": "@strunkie/multiselect",
+  "version": "0.1.22",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name Multiselect ./src/App.vue",
+    "lint": "vue-cli-service lint",
+    "test:e2e": "vue-cli-service test:e2e"
+  },
+  "dependencies": {
+    "lodash.filter": "^4.6.0",
+    "lodash.find": "^4.6.0",
+    "sass-mq": "^5.0.0",
+    "vue": "^2.5.17"
+  },
+  "main": "dist/Multiselect.umd.js",
+  "module": "dist/Multiselect.umd.js",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-e2e-cypress": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "@vue/eslint-config-airbnb": "^3.0.1",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
