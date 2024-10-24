@@ -11,7 +11,7 @@
     "lodash.filter": "^4.6.0",
     "lodash.find": "^4.6.0",
     "sass-mq": "^5.0.0",
-    "vue": "^2.5.17"
+    "vue": "^3.0.0"
   },
   "main": "dist/Multiselect.umd.js",
   "module": "dist/Multiselect.umd.js",
